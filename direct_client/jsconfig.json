@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@hooks/*": [
+        "src/Hooks/*"
+      ],
+      "@utils/*": [
+        "src/utils/*"
+      ],
+      "@store/*": [
+        "src/Store/*"
+      ],
+      "@theme/*": [
+        "src/Theme/*"
+      ],
+      "@common/*": [
+        "src/Common/*"
+      ],
+      "@modules/*": [
+        "src/Modules/*"
+      ],
+      "@config": [
+        "src/config.js"
+      ],
+      "@constants/*": [
+        "src/constants/*"
+      ]
+    },
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true
+  }
+}

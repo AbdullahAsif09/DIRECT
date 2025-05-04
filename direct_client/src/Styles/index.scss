@@ -1,0 +1,58 @@
+@import "./Pages/index.scss";
+@import "./Common/index.scss";
+@import "./Components/index.scss";
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  // max-width: 2000px;
+  max-width: 2000px;
+  margin: 0 auto !important;
+  min-height: 100vh;
+  box-sizing: border-box;
+  // overflow: unset !important;
+  padding-right: unset !important;
+  position: relative;
+}
+
+.ql-container.ql-snow {
+  height: 300px;
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiAppBar-positionFixed.mui-fixed {
+  padding-right: 0 !important;
+}
+
+.app {
+  height: 100%;
+  position: relative;
+  max-width: 1680px;
+  max-width: 1900px;
+  margin-inline: auto;
+  overflow-x: hidden;
+}
+
+
+
+/*  */
+.fr-wrapper div:first-of-type a:first-child {
+  display: none !important;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input.Mui-disabled.MuiInputBase-input {
+  -webkit-text-fill-color: rgb(95, 89, 89);
+}
+
+/* ck editor */
+[data-cke-tooltip-text="Insert media"] {
+  display: none !important;
+}

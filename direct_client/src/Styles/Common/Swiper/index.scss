@@ -1,0 +1,42 @@
+.projectsSwiper {
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: white !important;
+  }
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: green !important;
+  z-index: 2;
+  @media screen and (max-width: 400px) {
+    display: none !important;
+  }
+}
+
+.swiper-button-next {
+  transform: translateX(10px) !important;
+  @media screen and (max-width: 400px) {
+  }
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: green;
+}
+.swiper-button-next {
+  right: 20px !important;
+}
+
+.banner {
+  .swiper-pagination {
+    .swiper-pagination-bullet {
+      background: rgba(230, 224, 224, 0.758) !important;
+      opacity: 1;
+      width: 11px;
+      height: 11px;
+    }
+    .swiper-pagination-bullet-active {
+      // background: black !important;
+      background: white !important;
+    }
+  }
+}

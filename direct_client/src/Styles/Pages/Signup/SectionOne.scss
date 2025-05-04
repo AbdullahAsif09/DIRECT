@@ -1,0 +1,58 @@
+.signupSectionOne {
+    margin-top: 80px;
+
+    .itemOne {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .itemOne h1 {
+        color: #212121;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 166.5%;
+        /* 49.95px */
+    }
+
+    .itemTwo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .itemTwo span {
+        color: #949494;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 166.5%;
+        /* 29.97px */
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .itemOne>img {
+        height: 80px !important;
+        width: 80px !important;
+    }
+
+    .itemOne h1 {
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 166.5%;
+    }
+
+    .itemTwo span {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .itemOne>img {
+        height: 60px !important;
+        width: 60px !important;
+    }
+}

@@ -1,0 +1,31 @@
+const rolesToCollectionMapper = {
+  user: "users",
+  users: "users",
+  UserAgency: "userAgency",
+  useragency: "userAgency",
+  fundingagency: "fundingAgency",
+  fundingAgency: "fundingAgency",
+  admin: "admin",
+  super: "admin",
+  subadmin: "admin",
+  projectManager: "admin",
+  webAdmin: "admin",
+  technicalEvaluator: "admin",
+  organizationAdmin: "organizationAdmin",
+  departmentAdmin: "departmentMembers",
+  departmentProjectManager: "departmentMembers",
+  departmentExecutive: "executive",
+  organizationExecutive: "executive",
+  executive: "executive",
+  academia: "academia",
+  industry: "industry",
+};
+
+module.exports = {
+  ...require("./rooms"),
+  ...require("./events"),
+  ...require("./collections"),
+  ...require("./origins"),
+  ...require("./emailtemplates"),
+  rolesToCollectionMapper,
+};

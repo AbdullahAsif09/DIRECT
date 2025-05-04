@@ -1,0 +1,9 @@
+/node_modules
+/assets
+/uploads
+/uploads/
+/asset
+/asset/*
+.env
+.env.development
+.env.production
